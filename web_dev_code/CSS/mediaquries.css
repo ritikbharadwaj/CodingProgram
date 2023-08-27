@@ -1,0 +1,48 @@
+body{
+    background-color:blueviolet;
+}
+div{
+    align-items: center;
+}
+div::after{
+    content: 'welcome to the demo'
+}
+@media(min-width:600px){
+    body{
+        background-color: pink; 
+    }
+    div::after{
+        content: 'smaller screen';
+    }
+}
+
+
+@media (min-width:768px){
+    body{
+        background-color: aqua;
+    }
+    div::after{
+        content: 'tablets'
+    }
+}
+
+@media (min-width:900px){
+    /* when viewport is 900px
+    then style will be applied */
+    body{
+        background-color: brown;
+    }
+    div::after{
+        content: 'laptops'
+    }
+}
+
+
+@media(min-width:1200px){
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: 'larger screens';
+    }
+}

@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url(asset/bg.png);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    /* text-align: end; */
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: white;
+    text-decoration: underline solid 2px;
+}
+p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 230px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="date"], input[type="text"],input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"], input[type="reset"],input[type="file"] {
+    background: linear-gradient(135deg, #cc2b5e , #753a88);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover, input[type="file"]:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+  } */
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .file-upload-label {
+    background: linear-gradient(135deg, #cc2b5e , #753a88);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+  }
+  
+  .file-upload-label:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .file-upload-input {
+    display: none;
+  }
+  label {
+    color: #ffff;
+    font-family: 'Poppins';
+    font-weight: bold;
+  }
+  input {
+     background: none;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+  }
+  label{
+    color: black;
+  }
+  .input{
+    margin-left: 200px;
+  }
